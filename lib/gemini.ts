@@ -170,7 +170,6 @@ export async function processToniMessageStream(
     try {
       const openRouterKey = window.localStorage.getItem("toni_openrouter_api_key") || "";
       const openRouterModel = window.localStorage.getItem("toni_openrouter_model") || "";
-      const geminiKey = window.localStorage.getItem("toni_gemini_api_key") || "";
 
       const res = await fetch("/api/chat", {
         method: "POST",
@@ -180,7 +179,6 @@ export async function processToniMessageStream(
           history,
           openRouterKey: openRouterKey || process.env.NEXT_PUBLIC_OPENROUTER_API_KEY || "",
           openRouterModel: openRouterModel || process.env.OPENROUTER_MODEL || "nvidia/nemotron-3-ultra-550b-a55b:free",
-          apiKey: geminiKey || process.env.NEXT_PUBLIC_GEMINI_API_KEY || "",
           stream: true,
         }),
       });
@@ -263,7 +261,6 @@ export async function processToniMessage(
     try {
       const openRouterKey = window.localStorage.getItem("toni_openrouter_api_key") || "";
       const openRouterModel = window.localStorage.getItem("toni_openrouter_model") || "";
-      const geminiKey = window.localStorage.getItem("toni_gemini_api_key") || "";
 
       const res = await fetch("/api/chat", {
         method: "POST",
@@ -273,7 +270,6 @@ export async function processToniMessage(
           history,
           openRouterKey: openRouterKey || process.env.NEXT_PUBLIC_OPENROUTER_API_KEY || "",
           openRouterModel: openRouterModel || process.env.OPENROUTER_MODEL || "nvidia/nemotron-3-ultra-550b-a55b:free",
-          apiKey: geminiKey || process.env.NEXT_PUBLIC_GEMINI_API_KEY || "",
           stream: false,
         }),
       });

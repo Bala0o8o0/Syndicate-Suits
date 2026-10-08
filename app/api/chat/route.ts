@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { streamText, tool } from "ai";
 import { createOpenAI } from "@ai-sdk/openai";
 import { z } from "zod";
@@ -262,7 +261,6 @@ export async function POST(request: NextRequest) {
       history,
       openRouterKey: clientOpenRouterKey,
       openRouterModel: clientOpenRouterModel,
-      apiKey: clientGeminiApiKey,
       stream = true,
     } = body;
 
@@ -456,46 +454,7 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // 2. GOOGLE GEMINI STREAMING
-    const geminiKey =
-      clientGeminiApiKey ||
-      process.env.GEMINI_API_KEY ||
-      process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
-      "";
-
-    if (geminiKey && stream) {
-      try {
-        const genAI = new GoogleGenerativeAI(geminiKey);
-        const model = genAI.getGenerativeModel({
-          model: "gemini-2.0-flash",
-          systemInstruction: SYSTEM_PROMPT,
-        });
-
-        const chatHistory = Array.isArray(history)
-          ? history.slice(-8).map((h: { role: "user" | "model"; parts: string }) => ({
-              role: h.role === "user" ? "user" : "model",
-              parts: [{ text: h.parts }],
-            }))
-          : [];
-
-        const chat = model.startChat({ history: chatHistory });
-        const resultStream = await chat.sendMessageStream(message);
-
-        return createStreamResponse(async (controller) => {
-          for await (const chunk of resultStream.stream) {
-            const chunkText = chunk.text();
-            if (chunkText) {
-              const payload = JSON.stringify({ type: "chunk", text: chunkText }) + "\n";
-              controller.enqueue(encoder.encode(payload));
-            }
-          }
-        });
-      } catch (geminiErr) {
-        console.warn("Gemini stream failed, falling back:", geminiErr);
-      }
-    }
-
-    // 3. ZERO-LATENCY HIGH-SPEED LOCAL STREAM GENERATOR
+    // 2. ZERO-LATENCY HIGH-SPEED LOCAL STREAM GENERATOR
     const answerText = sanitizeAiReply(generateIntelligentAnswer(message));
 
     if (!stream) {
