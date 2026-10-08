@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --almost-black: #0B0B0A;
+  --syndicate-red: #B92720;
+  --cream: #E9DFC9;
+  --cream-dim: #D5C9AE;
+  --muted-gold: #B59454;
+  --charcoal: #292826;
+  --charcoal-light: #383734;
+  --border-dark: #1F1E1C;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background-color: var(--almost-black);
+  color: var(--cream);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--almost-black);
+  color: var(--cream);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Utility Classes */
+.font-luxury {
+  font-family: var(--font-luxury), "Cinzel", "Playfair Display", Georgia, serif;
+  letter-spacing: 0.04em;
+}
+
+.font-editorial-italic {
+  font-family: var(--font-serif-italic), "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+}
+
+.font-display {
+  font-family: var(--font-display), "Oswald", "Bebas Neue", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono-label {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+/* Subtle Film Grain Texture */
+.bg-grain {
+  background-image: radial-gradient(rgba(233, 223, 201, 0.05) 1px, transparent 0);
+  background-size: 8px 8px;
+}
+
+/* Comic-Style Halftone Dots (Refined 90s Noir) */
+.bg-halftone-noir {
+  background-image: radial-gradient(rgba(181, 148, 84, 0.18) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+.bg-halftone-charcoal {
+  background-image: radial-gradient(rgba(41, 40, 38, 0.7) 1.5px, transparent 1.5px);
+  background-size: 10px 10px;
+}
+
+/* Rough Paper / Classifieds Texture */
+.bg-paper-texture {
+  background-color: var(--charcoal);
+  background-image: 
+    linear-gradient(rgba(233, 223, 201, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(233, 223, 201, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Sharp Editorial Rectangular Buttons & Shadows */
+.sharp-border {
+  border: 1px solid var(--charcoal-light);
+}
+
+.sharp-border-gold {
+  border: 1px solid var(--muted-gold);
+}
+
+.sharp-border-red {
+  border: 1px solid var(--syndicate-red);
+}
+
+.shadow-editorial {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.shadow-editorial-red {
+  box-shadow: 4px 4px 0px 0px #B92720;
+}
+
+.shadow-editorial-gold {
+  box-shadow: 4px 4px 0px 0px #B59454;
+}
+
+/* Red Marker Underline / Hand-Drawn Scribble Effect */
+.red-marker-underline {
+  position: relative;
+  display: inline-block;
+}
+.red-marker-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--syndicate-red);
+  transform: rotate(-0.5deg);
+}
+
+/* Target Element Highlight from Toni Lee */
+[data-avatar-highlighted],
+[data-avatar-target]:target {
+  position: relative;
+  z-index: 30;
+  outline: 2px solid var(--muted-gold) !important;
+  outline-offset: 4px !important;
+  box-shadow: 0 0 0 8px rgba(181, 148, 84, 0.2), 0 20px 40px rgba(0, 0, 0, 0.9) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Minimal Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--almost-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--charcoal);
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-gold);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Kinetic Scroll Velocity Skew & Physical Motion Utilities */
+.kinetic-skew {
+  transform: skewY(var(--scroll-skew, 0deg));
+  transition: transform 0.08s linear;
+  will-change: transform;
+}
+
+@keyframes floatSlowNoir {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(0.4deg);
+  }
+}
+
+.animate-float-noir {
+  animation: floatSlowNoir 5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kinetic-skew,
+  .animate-float-noir {
+    transform: none !important;
+    animation: none !important;
+    transition: opacity 200ms ease !important;
+  }
+}
