@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Oswald, Inter, JetBrains_Mono, Cinzel, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/layout/providers";
@@ -38,6 +38,14 @@ export const metadata: Metadata = {
   title: "SYNDICATE SUITS — Haute Couture Mafia Bespoke & AI Concierge",
   description:
     "Ultra-luxury bespoke mafia tailoring atelier featuring Toni Lee, the AI Master Tailor & Consigliere. Level III-A Kevlar bulletproof suits, hand-rolled Italian Como canvas, and discreet underworld courier dispatch.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "256x256" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/favicon.ico"],
+  },
 };
 
 export default function RootLayout({
