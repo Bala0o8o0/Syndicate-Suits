@@ -1,335 +1,402 @@
-# 🕴️ SYNDICATE SUITS
-### Haute Couture Mafia Bespoke Tailoring & Toni Lee AI Consigliere
+<div align="center">
 
-[![Next.js 16](https://img.shields.io/badge/Next.js-16.2.11-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![React 19](https://img.shields.io/badge/React-19.2.8-blue?style=for-the-badge&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.3.2-38BDF8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.185-049EF4?style=for-the-badge&logo=threedotjs)](https://threejs.org/)
-[![Free Architecture](https://img.shields.io/badge/Cost-100%25_Free_Tier-22C55E?style=for-the-badge&logo=google)](https://ai.google.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](LICENSE)
+# 🕴️ S Y N D I C A T E &nbsp; S U I T S
+### **1990s Cartoon Noir Bespoke Mafia Tailoring Atelier & Real-Time AI Consigliere**
+*444 Mulberry Street, Little Italy • Est. 1928 — "Dress for the verdict you want."*
 
----
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-16.2.11-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js 16" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19.2.8-087EA4?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-v4.3.2-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" /></a>
+  <a href="https://threejs.org/"><img src="https://img.shields.io/badge/Three.js_%2F_R3F-0.185-DC2626?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" /></a>
+</p>
+<p align="center">
+  <a href="https://openrouter.ai/"><img src="https://img.shields.io/badge/AI_Brain-NVIDIA_Nemotron_3_Ultra_(OpenRouter)-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Nemotron" /></a>
+  <a href="https://sdk.vercel.ai/"><img src="https://img.shields.io/badge/Vercel_AI_SDK-6.0_Streaming-D4AF37?style=for-the-badge&logo=vercel&logoColor=black" alt="Vercel AI SDK" /></a>
+  <a href="#-voice--lip-sync-pipeline"><img src="https://img.shields.io/badge/Voice_TTS-Edge_Neural_(Christopher)-8B0000?style=for-the-badge&logo=microsoft&logoColor=white" alt="Edge Neural TTS" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge" alt="MIT License" /></a>
+</p>
 
-![Syndicate Suits — The Bespoke Atelier](./public/images/syndicate-brand-story.jpg)
+<br />
 
-> *"Fuggedaboutit! Look at you walking around in off-the-rack like a two-bit street punk. I'm Toni Lee—I dress the bosses in this town. Tell Toni what kind of heat you're stepping into, and I'll get you fitted in pure syndicate gold."*
-> — **Toni Lee**, Master Tailor & Consigliere
+<img src="./public/images/syndicate-brand-story-lineup.jpg" alt="Syndicate Suits — The Seven Bosses Atelier Banner" width="100%" />
 
----
+<br />
 
-## 📖 Table of Contents
+> *"Fuggedaboutit! Look at you walking around in off-the-rack like a two-bit street punk. I'm **Toni Lee**—Master Tailor & Consigliere to the Five Families for over 30 years. Tell Toni what kind of sit-down you're stepping into, and I'll get you fitted in pure syndicate gold."*
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [The 100% Free Architecture](#-the-100-free-architecture)
-- [Toni Lee — AI Consigliere & Master Tailor](#-toni-lee--ai-consigliere--master-tailor)
-- [The Syndicate Seven — Iconic Cuts](#-the-syndicate-seven--iconic-cuts)
-- [Autonomous Tool & Action Engine](#-autonomous-tool--action-engine)
-- [Tech Stack](#-tech-stack)
-- [Project Directory Structure](#-project-directory-structure)
-- [Quick Start & Local Setup](#-quick-start--local-setup)
-- [Environment Configuration](#-environment-configuration)
-- [Underworld Family Tribute Codes](#-underworld-family-tribute-codes)
-- [Design System & 90s Cartoon Noir Aesthetic](#-design-system--90s-cartoon-noir-aesthetic)
-- [License](#-license)
+</div>
 
 ---
 
-## 🎯 Overview
+## 🧭 Table of Contents
 
-**Syndicate Suits** is a luxury e-commerce bespoke tailoring experience drenched in a bold **1990s Cartoon Noir & Mafia Comic aesthetic** (inspired by *Batman: The Animated Series*, *Spider-Man 90s Kingpin Noir*, and classic graphic novels).
-
-Anchoring the atelier is **Toni Lee**, a fast-talking mobster AI tailor who:
-- **Listens** via microphone with browser Speech-to-Text.
-- **Speaks** with an authentic New York mobster accent powered by Microsoft Edge Neural TTS.
-- **Lip-Syncs in Real-Time** using custom Web Audio API frequency analysis driving audio-reactive mouth motion and waveforms.
-- **Controls the Live Atelier** through dynamic client tool calling—recommending cuts, toggling fabrics and lapels, highlighting items, filtering the vault, and managing the user's discreet briefcase cart (*The Black Ledger*).
-- **Operates 100% Free** with zero Runway credit dependencies, zero paid subscription requirements, and a built-in zero-key local heuristic fallback engine.
+- [🎬 Live Video Previews & Motion Showcase](#-live-video-previews--motion-showcase)
+- [🔥 What Makes Syndicate Suits Different](#-what-makes-syndicate-suits-different)
+- [🧠 System Architecture (OpenRouter Nemotron + Edge TTS + R3F)](#-system-architecture-openrouter-nemotron--edge-tts--r3f)
+- [🎙️ Meet Toni Lee — Real-Time AI Consigliere](#️-meet-toni-lee--real-time-ai-consigliere)
+- [👔 The Syndicate Seven — Complete Vault & Archetype Gallery](#-the-syndicate-seven--complete-vault--archetype-gallery)
+- [🏛️ The Syndicate Code — Four Pillars of Craftsmanship](#️-the-syndicate-code--four-pillars-of-craftsmanship)
+- [⚡ 13 Autonomous DOM Tools & Generative UI Cards](#-13-autonomous-dom-tools--generative-ui-cards)
+- [🔑 Secret Underworld Family Passcodes](#-secret-underworld-family-passcodes)
+- [🎨 1990s Cartoon Noir Design System](#-1990s-cartoon-noir-design-system)
+- [📂 Project Directory Structure](#-project-directory-structure)
+- [🚀 Quick Start & Vercel Deployment](#-quick-start--vercel-deployment)
 
 ---
 
-## ✨ Key Features
+## 🎬 Live Video Previews & Motion Showcase
 
-| Feature | Description |
+Experience the cinematic motion layers built directly into the repository:
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🎥 1. The Atelier Cinematic Hero Reel</h3>
+      <a href="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/hero.mp4">
+        <img src="./public/images/syndicate-brand-story.jpg" alt="Watch Atelier Hero Video" width="100%" />
+      </a>
+      <p>
+        <a href="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/hero.mp4">
+          <img src="https://img.shields.io/badge/▶_WATCH_HERO_REEL_(MP4)-DC2626?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Hero MP4" />
+        </a>
+      </p>
+      <sub>40-frame scroll-scrubbed HTML5 canvas sequence + full-bleed noir motion video (<code>public/hero.mp4</code>)</sub>
+    </td>
+    <td align="center" width="50%">
+      <h3>🎙️ 2. Toni Lee Live Talking Avatar</h3>
+      <a href="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/videos/toni-lee-talking.mp4">
+        <img src="./public/images/toni-lee.jpg" alt="Watch Toni Lee Talking Avatar Video" width="100%" />
+      </a>
+      <p>
+        <a href="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/videos/toni-lee-talking.mp4">
+          <img src="https://img.shields.io/badge/▶_WATCH_TONI_LEE_SPEAK_(MP4)-D4AF37?style=for-the-badge&logo=academia&logoColor=black" alt="Watch Toni Lee MP4" />
+        </a>
+      </p>
+      <sub>Audio-reactive dual-layer video avatar synchronized with Web Audio API lip-sync (<code>public/videos/toni-lee-talking.mp4</code>)</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<details>
+<summary><b>📺 Click to Expand Inline HTML5 Video Players</b></summary>
+<br />
+<div align="center">
+  <video src="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/hero.mp4" controls muted loop width="85%"></video>
+  <br /><br />
+  <video src="https://raw.githubusercontent.com/Bala0o8o0/Syndicate-Suits/main/public/videos/toni-lee-talking.mp4" controls loop width="55%"></video>
+</div>
+</details>
+
+---
+
+## 🔥 What Makes Syndicate Suits Different
+
+| Capability | Technical Highlights |
 | :--- | :--- |
-| 🎙️ **Bidirectional Voice AI** | Talk directly to Toni Lee via hands-free mic input (`webkitSpeechRecognition`) and listen to human-grade neural mobster responses (`msedge-tts` with `en-US-ChristopherNeural`). |
-| 👄 **Web Audio Lip-Sync** | High-precision `AudioLipSyncAnalyser` connects an `AnalyserNode` to live TTS streams, extracting frequency amplitudes to animate Toni's mouth and waveforms in real time. |
-| ⚡ **Autonomous DOM Tool Calling** | Toni Lee executes client-side tools that scroll, filter, open modals, customize suits, apply discounts, and manage cart items directly on the screen. |
-| 👔 **The Syndicate Seven** | 7 handcrafted luxury silhouettes featuring hand-rolled Como worsted wool, Sicilian linen, crimson velvet, and integrated flexible Level III-A Kevlar micro-mesh lining. |
-| ✂️ **Interactive 3D Bespoke Customizer** | Made-to-measure studio where bosses swap fabrics (Como Worsted, Crimson Velvet, Sicilian Linen, Onyx Houndstooth), lapels (Peak, Notch, Shawl), and custom linings. |
-| 💼 **The Black Ledger Briefcase Cart** | Discreet briefcase drawer tracking commissions, calculating discounts, rendering invoice tallies, and triggering celebratory confetti drops. |
-| 🛡️ **Zero-Key Heuristic Fallback** | Runs completely offline or with zero API keys using an integrated local natural language pattern matcher with instant tool dispatch. |
-| 🎨 **1990s Cartoon Noir UI** | 3px bold ink outlines, hard cel-shaded drop shadows (`shadow-[5px_5px_0px_0px_black]`), retro halftone dot patterns, and vintage Art-Deco typography. |
+| 🧠 **NVIDIA Nemotron 3 Ultra Brain** | Powered by **`nvidia/nemotron-3-ultra-550b-a55b:free`** via **OpenRouter** + **Vercel AI SDK (`streamText`)** for ultra-fast token streaming, Generative UI cards, and zero-key local fallback. |
+| 🎙️ **Bidirectional Mobster Voice AI** | Hands-free microphone input (`webkitSpeechRecognition`) paired with server-streamed **Microsoft Edge Neural TTS** (`en-US-ChristopherNeural` at `+12%` mobster cadence). |
+| 👄 **Real-Time Web Audio Lip-Sync** | Custom `AudioLipSyncAnalyser` (`AnalyserNode` FFT frequency analyzer) measures instantaneous vocal energy to drive Toni Lee's video state, mouth metrics, and gold equalizer bars. |
+| 🃏 **In-Chat Generative UI Cards** | Asking Toni to recommend a suit or open your cart renders interactive **Bespoke Dossier Cards**, **Live Briefcase Mini-Inspectors**, and **20% OFF VIP Cipher Tickets** directly inside the chat stream. |
+| 🕴️ **40-Frame Scroll-Scrubbed Hero** | GSAP + HTML5 `<canvas>` sequence (`ezgif-frame-001.png` → `040.png`) with dynamic fedora watermark parallax and speakeasy volumetric smoke (`smoke-canvas.tsx`). |
+| 🎠 **3D WebGL Revolving Suit Stage** | Interactive Three.js / React Three Fiber 3D carousel (`character-3d-canvas.tsx`) and full-screen **3D Bespoke Customizer** (`/customizer`) with live fabric, lapel, and silk lining swaps. |
+| 💼 **The Black Ledger Briefcase** | Persistent Zustand cart (`useBriefcaseStore`) supporting composite bespoke configurations, secret underworld discount passcodes, and gold-and-crimson celebratory confetti bursts. |
 
 ---
 
-## ⚡ The 100% Free Architecture
+## 🧠 System Architecture (OpenRouter Nemotron + Edge TTS + R3F)
 
-Unlike legacy character setups that require expensive Runway credits ($/minute), Syndicate Suits is engineered from the ground up for **zero operational cost**:
+```mermaid
+flowchart TB
+    subgraph Client["🖥️ Client Browser (Next.js 16 + React 19 + Tailwind v4)"]
+        Mic["🎙️ Web Speech STT<br/>(webkitSpeechRecognition)"]
+        Widget["🕴️ Toni Lee Assistant Dock<br/>(Dual-Layer Video + Gold Waveform)"]
+        GenUI["🃏 Generative UI Cards<br/>(Suit Dossier / Briefcase / VIP Cipher)"]
+        DOM["⚡ 13 Autonomous DOM Tools<br/>(Scroll, Filter, Customize, Cart, Discounts)"]
+        Store["🗄️ Zustand Stores<br/>(useToniStore & useBriefcaseStore)"]
+    end
 
+    subgraph Server["⚙️ Next.js App Router API Routes"]
+        ChatAPI["/api/chat<br/>Vercel AI SDK streamText + Tool Detection"]
+        TTSAPI["/api/tts<br/>msedge-tts (en-US-ChristopherNeural 24kHz MP3)"]
+        LocalFallback["🛡️ Zero-Latency Local Synthesizer<br/>(27 Mobster Intent Rules)"]
+    end
+
+    subgraph Cloud["☁️ 100% Free AI Provider"]
+        OpenRouter["🟢 OpenRouter API<br/>nvidia/nemotron-3-ultra-550b-a55b:free"]
+    end
+
+    Mic -->|"Voice Transcript"| Widget
+    Widget -->|"POST /api/chat (SSE Stream)"| ChatAPI
+    ChatAPI -->|"Primary LLM Stream"| OpenRouter
+    ChatAPI -.->|"Instant Offline Fallback"| LocalFallback
+    OpenRouter -->|"Token Chunks + Tool Calls"| ChatAPI
+    ChatAPI -->|"SSE Metadata + Text Chunks"| Widget
+    Widget -->|"Render Rich Cards"| GenUI
+    Widget -->|"Execute Tool Action"| DOM
+    DOM -->|"Sync State"| Store
+    Widget -->|"POST /api/tts"| TTSAPI
+    TTSAPI -->|"Audio Buffer + Web Audio FFT Lip-Sync"| Widget
 ```
-                       ┌──────────────────────────────────────────────┐
-                       │     AI Brain: Google Gemini / OpenRouter     │
-                       │        (Or Zero-Key Local Fallback Engine)    │
-                       └──────────────────────┬───────────────────────┘
-                                              │
-                 ┌────────────────────────────┼────────────────────────────┐
-                 ▼                            ▼                            ▼
-     [ Toni Lee Avatar ]            [ Free Audio Pipeline ]      [ Atelier Tool Dispatch ]
-     • Cinematic Video Layer         • Web Speech API (STT Mic)   • scroll_to_section
-     • Three.js / R3F Canvas         • Edge Neural TTS (Free MP3) • filter_catalog
-     • Frequency Lip-Sync Waveform   • Web Audio AnalyserNode     • customize_suit
-     • Cursor tracking & idle state  • Zero-latency playback      • add_to_briefcase
-```
-
-1. **AI Brain**: Free Google Gemini 2.0 / 1.5 Flash via Google AI Studio, or free OpenRouter models (e.g. `nvidia/nemotron-3-ultra-550b-a55b:free`, `meta-llama/llama-3.3-70b-instruct:free`), backed by a client-side local parser if no key is configured.
-2. **Neural Voice**: High-fidelity Microsoft Edge Neural TTS (`en-US-ChristopherNeural` / `en-US-GuyNeural`) streamed on-the-fly via `/api/tts` with zero subscription fees.
-3. **Speech Input**: Native browser Web Speech Recognition API (`webkitSpeechRecognition`).
-4. **Lip-Sync**: Custom Web Audio API frequency analysis engine measuring instantaneous RMS and frequency buckets to synchronize speech with visual animations.
 
 ---
 
-## 🎙️ Toni Lee — AI Consigliere & Master Tailor
+## 🎙️ Meet Toni Lee — Real-Time AI Consigliere
 
-![Toni Lee — Master Tailor](./public/images/toni-lee.jpg)
+<div align="center">
+  <img src="./public/images/toni-lee.jpg" alt="Toni Lee — Master Tailor & Consigliere" width="420" />
+</div>
 
-### Persona Profile
-- **Alias**: The Consigliere & Master Tailor
-- **Location**: Mulberry Street Atelier No. 7, Little Italy
-- **Demeanor**: Fast-talking, sharp-witted, fiercely loyal to bosses of honor, ruthless against off-the-rack fashion.
-- **Signature Line**: *"Look the part, boss. When you step into a sit-down wearing Syndicate, nobody asks questions."*
+- **Role**: Master Tailor & Consigliere to the Five Families (30+ Years on Mulberry Street)
+- **Voice Engine**: Microsoft Edge Neural TTS (`en-US-ChristopherNeural`, pitch `-4Hz`, rate `+12%`) with automatic sentence-level audio pre-fetching for zero-latency speech playback.
+- **Interactive Capabilities**:
+  - **Voice or Text**: Click the gold microphone button to talk hands-free or type directly in the Consigliere Wire.
+  - **Context-Aware**: Knows the exact INR pricing (`₹ 2,50,000` – `₹ 3,45,000`), Kevlar ratings, Italian fabrics, trousers inclusions, and underworld lore of all 7 suits.
+  - **Action-Driven**: Never says *"As an AI I can't do that"*—Toni immediately scrolls the page, filters the catalog, opens the customizer, or packs suits into your briefcase.
 
 ---
 
-## 👔 The Syndicate Seven — Iconic Cuts
+## 👔 The Syndicate Seven — Complete Vault & Archetype Gallery
 
-![The Syndicate Seven Lineup](./public/images/syndicate-seven-lineup.jpg)
+<div align="center">
+  <img src="./public/images/syndicate-seven-lineup.jpg" alt="The Syndicate Seven Full Lineup" width="100%" />
+</div>
 
-Every piece in the atelier is custom-commissioned with Italian craftsmanship and discreet underworld specifications:
+Every order in **The Syndicate Seven** (`₹ 20,20,000` total vault value) includes the **bespoke ballistic jacket**, **matching tailored trousers**, and **certified Kevlar armor core**:
 
-| Silhouette | Alias | Fabric & Construction | Cut Style |
+<div align="center">
+
+| # | Bespoke Cut | Archetype Portrait | Silhouette & Rank | Price (INR) | Ballistic Core | Primary Italian Fabric & Syndicate Rule |
+| :-: | :---: | :---: | :--- | :---: | :---: | :--- |
+| **01** | <img src="./public/images/suits/the-don.jpg" width="110" alt="The Don Suit" /> | <img src="./public/images/characters/the-don.jpg" width="110" alt="The Don Character" /> | **The Don**<br/>*Il Capo dei Capi*<br/>`Boss of Bosses` | **₹ 3,45,000** | `Level III-A` | **Onyx Midnight Super-180s Wool**<br/>*RULE #1 • NEVER RAISE YOUR VOICE* |
+| **02** | <img src="./public/images/suits/the-boss.jpg" width="110" alt="The Boss Suit" /> | <img src="./public/images/characters/the-boss.jpg" width="110" alt="The Boss Character" /> | **The Boss**<br/>*The Executive Kingpin*<br/>`Syndicate Head` | **₹ 3,10,000** | `Level II-A` | **Midnight Navy Super-180s 3-Piece**<br/>*RULE #2 • OWN THE CONTRACT, OWN THE TOWN* |
+| **03** | <img src="./public/images/suits/the-capo.jpg" width="110" alt="The Capo Suit" /> | <img src="./public/images/characters/the-capo.jpg" width="110" alt="The Capo Character" /> | **The Capo**<br/>*The District Commander*<br/>`Caporegime` | **₹ 2,95,000** | `Level III Tactical` | **450g Como Charcoal Worsted**<br/>*RULE #3 • PROMISES DELIVERED IN CASH & IRON* |
+| **04** | <img src="./public/images/suits/the-consigliere.jpg" width="110" alt="The Consigliere Suit" /> | <img src="./public/images/characters/the-consigliere.jpg" width="110" alt="The Consigliere Character" /> | **The Consigliere**<br/>*The Mastermind*<br/>`Legal Architect` | **₹ 2,80,000** | `Level II-A` | **Sicilian Cream Chalk-Stripe Linen**<br/>*RULE #4 • A SHARP TONGUE SILENCES TEN BULLETS* |
+| **05** | <img src="./public/images/suits/the-enforcer.jpg" width="110" alt="The Enforcer Suit" /> | <img src="./public/images/characters/the-enforcer.jpg" width="110" alt="The Enforcer Character" /> | **The Enforcer**<br/>*The Iron Fist*<br/>`Prime Enforcer` | **₹ 2,65,000** | `Level III Tactical` | **Royale Burgundy French Velvet**<br/>*RULE #5 • ACT WITHOUT DOUBT OR DELAY* |
+| **06** | <img src="./public/images/suits/the-underboss.jpg" width="110" alt="The Underboss Suit" /> | <img src="./public/images/characters/the-underboss.jpg" width="110" alt="The Underboss Character" /> | **The Underboss**<br/>*The Shadow General*<br/>`Underboss` | **₹ 2,50,000** | `Level IV Stealth` | **Covert Olive Cavalry Twill**<br/>*RULE #6 • THE SHADOW STRIKES BEFORE THE LIGHT* |
+| **07** | <img src="./public/images/suits/the-wildcard.jpg" width="110" alt="The Wildcard Suit" /> | <img src="./public/images/characters/the-wildcard.jpg" width="110" alt="The Wildcard Character" /> | **The Wildcard**<br/>*The Casino Maverick*<br/>`High Roller` | **₹ 2,75,000** | `Level II-A` | **Royal Cobalt Silver Pinstripe**<br/>*RULE #7 • ALWAYS DOUBLE DOWN ON RED* |
+
+</div>
+
+---
+
+## 🏛️ The Syndicate Code — Four Pillars of Craftsmanship
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="./public/images/syndicate-code/icon-cut-scissors.png" width="90" alt="The Cut" />
+      <h4>01 • THE CUT</h4>
+      <sub>Architectural Roman & Neapolitan shoulders engineered to command any sit-down without uttering a word.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./public/images/syndicate-code/icon-fabric-spool.png" width="90" alt="The Fabric" />
+      <h4>02 • THE FABRIC</h4>
+      <sub>Super-180s Como worsted wool, Sicilian flax linen, and French velvet laminated with micro-woven Kevlar.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./public/images/syndicate-code/icon-detail-loupe.png" width="90" alt="The Detail" />
+      <h4>03 • THE DETAIL</h4>
+      <sub>Counter-balanced shoulder holsters, titanium thread button anchors, and hidden cigar & ledger pockets.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./public/images/syndicate-code/icon-attitude-fedora.png" width="90" alt="The Attitude" />
+      <h4>04 • THE ATTITUDE</h4>
+      <sub>Hand-finished on Mulberry Street since 1928 for bosses who write their own rules.</sub>
+    </td>
+  </tr>
+</table>
+</div>
+
+---
+
+## ⚡ 13 Autonomous DOM Tools & Generative UI Cards
+
+Toni Lee controls the entire application in real time via function calling (`lib/toni-tools.ts` & `components/avatar/generative-ui-card.tsx`):
+
+| Tool Name | Parameters | Live Screen Action | Try Asking Toni Lee |
 | :--- | :--- | :--- | :--- |
-| **The Don** | *Il Capo dei Capi* | Italian charcoal chalk-stripe worsted wool with Level III-A Kevlar micro-mesh | Classic Double-Breasted Peak Lapel |
-| **The Boss** | *Midnight Obsidian* | 100% Como virgin wool in pitch-black shadow weave | 6-Button Double-Breasted Wide Peak |
-| **The Capo** | *Smoked Charcoal* | Brushed midnight charcoal barathea with silk faille satin | 1-Button Speakeasy Shawl Tuxedo |
-| **The Consigliere** | *Sicilian Cream* | Crisp Sicilian cream linen blend with antique brass chain accent | 3-Piece Peak Lapel Vest & Trousers |
-| **The Enforcer** | *Crimson Velvet* | Heavy Venetian crimson cotton velvet with reinforced shoulder drape | Broad Peak Lapel Statement Blazer |
-| **The Underboss** | *Covert Olive* | Italian olive drab tactical wool with concealed interior holster pockets | 2-Button Modern Notch Lapel |
-| **The Wildcard** | *Royal Cobalt* | Vibrant cobalt blue houndstooth with crimson silk damask lining | 3-Piece Peak Lapel Double-Breasted Vest |
+| 🛍️ `navigate_to_shop` | — | Smoothly navigates to `/shop` (The Bespoke Vault). | *"Take me to the shop, Toni."* |
+| 🏠 `navigate_to_home` | — | Returns to the main atelier entrance (`/`). | *"Take me back to the front entrance."* |
+| 📜 `scroll_to_section` | `sectionId` | Smooth-scrolls to `brand-story`, `syndicate-code`, `syndicate-seven`, `reviews`, or `black-ledger`. | *"Show me the Syndicate Code."* |
+| 🔍 `filter_catalog` | `category`, `query` | Filters `/shop` by `double-breasted`, `three-piece`, `velvet-gala`, `tactical`, or `summer-linen`. | *"Filter for double-breasted suits."* |
+| 👁️ `quick_view_suit` | `suitId` | Opens the bespoke specification modal (`SuitQuickViewModal`). | *"Inspect The Consigliere."* |
+| ✂️ `customize_suit` | `suitId`, `fabricId`, `lapelId` | Navigates to `/customizer?suit=<id>` or live-swaps fabrics & lapels. | *"Let's customize The Boss in navy pinstripe."* |
+| 🎯 `highlight_suit` | `suitId` | Scrolls to the suit card and pulses a crimson/gold spotlight border. | *"Highlight The Enforcer."* |
+| 🃏 `recommendSuit` | `suitId`, `reason` | Renders an interactive **Generative UI Suit Card** with 1-click *Commission Suit* button in chat. | *"Recommend a suit for a casino gala."* |
+| 💼 `add_to_briefcase` | `suitId`, `size` | Packs the bespoke suit into the user's Black Ledger briefcase cart. | *"Add The Don to my briefcase, size 42R."* |
+| 🗑️ `remove_from_briefcase` | `suitId` | Removes a specific suit (or the most recent item) from the briefcase. | *"Remove The Don from my cart."* |
+| 🧹 `clear_briefcase` | — | Purges all items from the Black Ledger briefcase cleanly. | *"Empty my briefcase, wipe the ledger clean."* |
+| 📂 `open_briefcase` | — | Opens the sliding Black Ledger drawer + renders an in-chat **Briefcase Mini-Inspector**. | *"Open my briefcase."* |
+| 🔒 `close_briefcase` | — | Secures and closes the Black Ledger drawer. | *"Close the briefcase."* |
+| 🏷️ `apply_family_discount` | `code` | Applies a family tribute cipher, triggers gold/crimson confetti, and renders a **VIP Cipher Card**. | *"Give me a family discount code."* |
 
 ---
 
-## 🛠️ Autonomous Tool & Action Engine
+## 🔑 Secret Underworld Family Passcodes
 
-Toni Lee dynamically executes structured function calling to manipulate the interface in real time:
+Redeem these secret passcodes in **The Black Ledger** (`/briefcase`), the **VIP Cipher Bar** on the home page, or by asking **Toni Lee**:
 
-| Tool Name | Parameters | Action Triggered on Screen | Voice Example |
-| :--- | :--- | :--- | :--- |
-| `navigate_to_shop` | — | Redirects smoothly to the bespoke suit collection page (`/shop`). | *"Take me to the shop, Toni."* |
-| `navigate_to_home` | — | Returns to the main atelier landing page (`/`). | *"Take me back home."* |
-| `scroll_to_section` | `sectionId` | Smoothly scrolls to target sections (`syndicate-code`, `brand-story`, `syndicate-seven`, `black-ledger`). | *"Show me the brand story."* |
-| `filter_catalog` | `category`, `query` | Filters suit cards by cut (`double-breasted`, `three-piece`, `velvet-gala`, `tactical`) or keyword. | *"Show me double-breasted suits."* |
-| `quick_view_suit` | `suitId` | Opens the comic book specification drawer for a specific cut. | *"Tell me about The Don."* |
-| `customize_suit` | `suitId` | Opens the live 3D bespoke tailoring studio for that silhouette. | *"Let's customize The Boss."* |
-| `highlight_suit` | `suitId` | Scrolls to and pulses a comic spotlight border on the suit card. | *"Where is the Enforcer?"* |
-| `add_to_briefcase` | `suitId`, `size` | Places the bespoke suit into the user's discreet briefcase cart. | *"Put The Capo in my briefcase, size 42R."* |
-| `remove_from_briefcase` | `suitId` | Removes a specific piece from the briefcase cart. | *"Remove The Boss from my cart."* |
-| `clear_briefcase` | — | Purges all items from the Black Ledger briefcase. | *"Clear my briefcase, wipe it clean."* |
-| `open_briefcase` | — | Opens the discreet Black Ledger briefcase cart drawer. | *"Open my ledger."* |
-| `close_briefcase` | — | Closes the briefcase cart drawer. | *"Close the cart."* |
-| `apply_family_discount` | `code` | Validates and unlocks secret syndicate discount codes with celebratory confetti. | *"Apply code TONI_SPECIAL."* |
+<div align="center">
+
+| Passcode Cipher | Tribute Discount | Clearance Level | Effect |
+| :---: | :---: | :--- | :--- |
+| 👑 **`DON_CORLEONE`** | **35% OFF** | *Il Capo dei Capi* | Maximum Godfather tribute + celebratory gold confetti burst |
+| 🏛️ **`FIVE_FAMILIES`** | **30% OFF** | *Commission Sit-Down* | High-council syndicate tribute across all bespoke cuts |
+| ✂️ **`TONI_SPECIAL`** | **25% OFF** | *Master Tailor Favor* | Toni Lee's personal Mulberry Street atelier courtesy |
+| 🤝 **`GOODFELLA`** | **20% OFF** | *Made Man Courtesy* | Interactive Generative UI one-click redemption in chat |
+
+</div>
 
 ---
 
-## 💻 Tech Stack
+## 🎨 1990s Cartoon Noir Design System
 
-- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/) & [React 19](https://react.dev/)
-- **Language**: [TypeScript 5.9](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with custom 90s comic noir ink outlines and halftone utilities
-- **3D & Graphics**: [Three.js](https://threejs.org/), [@react-three/fiber](https://r3f.docs.pmnd.rs/), [@react-three/drei](https://github.com/pmndrs/drei)
-- **Animation & Motion**: [Framer Motion](https://www.framer.com/motion/), [GSAP](https://gsap.com/), [Lenis](https://lenis.darkroom.engineering/) smooth scroll, [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
-- **Voice Synthesis**: Microsoft Edge Neural TTS (`msedge-tts` streaming `en-US-ChristopherNeural` 24kHz audio)
-- **Speech Input**: Web Speech Recognition API (`webkitSpeechRecognition`)
-- **Audio Processing**: Web Audio API `AudioContext` & `AnalyserNode` frequency spectrum analyzer for real-time lip-sync
-- **AI Intelligence**: [Google Gemini 2.0 Flash SDK](https://ai.google.dev/), [OpenRouter API](https://openrouter.ai/), and Client-Side Heuristic Fallback
-- **State Management**: [Zustand](https://zustand.docs.pmnd.rs/) (`useToniStore`, `useBriefcaseStore`)
-- **Icons & UI**: [Lucide React](https://lucide.dev/)
+<div align="center">
+  <img src="./public/images/smoking-cigar.jpg" alt="Syndicate Noir Aesthetic — Smoking Cigar" width="380" />
+</div>
+
+Inspired by *Batman: The Animated Series*, *Spider-Man 90s Kingpin Noir*, and *Dick Tracy*, the interface enforces a strict **Anti-Slop 1990s Comic Noir** visual language (`AGENTS.md`):
+
+- 🎨 **Signature Palette**:
+  - ![#8B0000](https://placehold.co/16x16/8B0000/8B0000.png) **Mafia Crimson** (`#8B0000` / `#DC2626`)
+  - ![#D4AF37](https://placehold.co/16x16/D4AF37/D4AF37.png) **Speakeasy Gold** (`#D4AF37` / `#B59454`)
+  - ![#0B0B0A](https://placehold.co/16x16/0B0B0A/0B0B0A.png) **Onyx Charcoal** (`#0B0B0A` / `#121214`)
+  - ![#E9DFC9](https://placehold.co/16x16/E9DFC9/E9DFC9.png) **Parchment Ivory** (`#E9DFC9` / `#EDE6D6`)
+  - ![#0F172A](https://placehold.co/16x16/0F172A/0F172A.png) **Midnight Navy** (`#0F172A` / `#172554`)
+- 🖋️ **Borders & Shadows**: 3px bold black ink outlines (`border-3 border-black`) and hard cel-shaded drop shadows (`shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]`).
+- 🔤 **Typography**: *Cinzel* & *Oswald* dramatic display headers paired with *Cormorant Garamond*, *Inter*, and *JetBrains Mono* ledger numerals.
 
 ---
 
-## 📁 Project Directory Structure
+## 📂 Project Directory Structure
 
 ```text
-syndicate-suits/
+Syndicate-Suits/
 ├── app/
 │   ├── api/
-│   │   ├── chat/route.ts                     # Gemini & OpenRouter AI chat route with tool definitions
-│   │   └── tts/route.ts                      # Microsoft Edge Neural TTS audio streaming endpoint
-│   ├── briefcase/page.tsx                    # Discreet Cart & Checkout Ledger page
-│   ├── customizer/page.tsx                   # Interactive Bespoke Tailoring Studio
+│   │   ├── chat/route.ts                     # OpenRouter (NVIDIA Nemotron 3 Ultra) + Vercel AI SDK streaming route
+│   │   └── tts/route.ts                      # Microsoft Edge Neural TTS (en-US-ChristopherNeural) audio stream
+│   ├── briefcase/page.tsx                    # Full-screen Black Ledger Briefcase Cart & Checkout
+│   ├── customizer/page.tsx                   # 3D Bespoke Tailoring Studio (/customizer?suit=<id>)
 │   ├── shop/
 │   │   ├── [id]/page.tsx                     # Individual Bespoke Cut Specifications & Configurator
-│   │   └── page.tsx                          # Bespoke Vault / Catalog with live filters
-│   ├── globals.css                           # 90s comic noir utilities, ink borders & halftone styles
-│   ├── layout.tsx                            # Root layout with fonts, theme & sound providers
-│   └── page.tsx                              # Atelier home (Hero, Brand Story, Seven Suits, Ledger)
+│   │   └── page.tsx                          # The Bespoke Vault catalog with occasion & silhouette filters
+│   ├── globals.css                           # 90s Cartoon Noir utilities, ink borders & halftone textures
+│   ├── layout.tsx                            # Root layout with Google Fonts, nav, footer & Toni Lee widget
+│   └── page.tsx                              # Landing page (40-Frame Hero, Brand Story, Code, 3D Roster, Reviews)
 ├── components/
 │   ├── avatar/                               # Toni Lee AI Consigliere & Lip-Sync Engine
-│   │   ├── toni-assistant-widget.tsx         # Floating interactive mobster assistant dock
-│   │   ├── toni-video-player.tsx             # Dual-layer idle/speaking video player with lip-sync
-│   │   ├── toni-speech-controller.tsx        # Web Speech STT & Edge Neural TTS coordinator
-│   │   ├── syndicate-chat-card.tsx           # 90s Comic dialog bubble & transcription view
-│   │   └── generative-ui-card.tsx            # In-chat interactive suit & briefcase cards
-│   ├── brand/                                # Narrative & lore components
-│   │   ├── brand-story-section.tsx           # The Seven Families editorial comic story
-│   │   ├── syndicate-code-section.tsx        # The Four Tenets of Syndicate Craftsmanship
-│   │   └── torn-paper-photo-frame.tsx        # Vintage torn-edge archival photo frame
-│   ├── briefcase/                            # Discreet Cart Drawer & Checkout Ledger
-│   │   └── briefcase-modal.tsx               # Sliding leather briefcase cart drawer
-│   ├── catalog/                              # Suit showcase & 3D product stage
-│   │   ├── Hero.tsx                          # Canvas frame sequence hero with zoom reveal
-│   │   ├── character-3d-canvas.tsx           # WebGL Three.js 3D revolving carousel canvas
-│   │   ├── syndicate-seven-3d-carousel.tsx   # 3D rotating bespoke cut carousel
-│   │   ├── syndicate-roster-section.tsx      # Interactive Syndicate hierarchy & character roster
-│   │   ├── suit-grid.tsx                     # 3D suit stage with live filters & swatch selector
-│   │   ├── suit-quick-view-modal.tsx         # Quick-view specification modal
-│   │   ├── bespoke-consultation-banner.tsx   # Interactive Toni Lee consultation banner
+│   │   ├── generative-ui-card.tsx            # In-chat Suit Dossier, Briefcase Inspector & VIP Cipher cards
+│   │   ├── syndicate-chat-card.tsx           # 90s Comic Noir chat interface & quick-action pills
+│   │   ├── toni-assistant-widget.tsx         # Floating Consigliere dock & voice wave trigger
+│   │   ├── toni-speech-controller.tsx        # Web Speech STT + sentence-queued Edge Neural TTS + Web Audio FFT
+│   │   └── toni-video-player.tsx             # Dual-layer crossfading idle PNG / talking MP4 avatar player
+│   ├── brand/                                # Heritage & Editorial Lore Sections
+│   │   ├── brand-story-section.tsx           # 1928 Little Italy origin story & interactive polaroid stack
+│   │   ├── syndicate-code-section.tsx        # The 4 Kraft-paper pillars of Syndicate craftsmanship
+│   │   └── torn-paper-photo-frame.tsx        # Archival torn-paper photo deck
+│   ├── briefcase/
+│   │   └── briefcase-modal.tsx               # Slide-over Black Ledger drawer with confetti & discount engine
+│   ├── catalog/                              # 3D Stages, Carousels & Product Showcases
+│   │   ├── Hero.tsx                          # 40-frame canvas scrub hero with dynamic fedora watermark
+│   │   ├── bespoke-consultation-banner.tsx   # Interactive Toni Lee private consultation callout
+│   │   ├── character-3d-canvas.tsx           # Three.js / React Three Fiber 3D revolving card stage
+│   │   ├── final-cta-section.tsx             # Mulberry St. private fitting appointment CTA
+│   │   ├── shop-campaign-hero.tsx            # 1990s cartoon noir shop campaign banner
+│   │   ├── suit-grid.tsx                     # Interactive suit lineup with live fabric swatch switching
+│   │   ├── suit-quick-view-modal.tsx         # Comic book specification quick-view modal
+│   │   ├── syndicate-ledger-newsletter.tsx   # Underworld Wire encrypted dispatch signup
 │   │   ├── syndicate-reviews.tsx             # Word on the Street mobster testimonials
-│   │   └── final-cta-section.tsx             # Mulberry St. appointment booking CTA
-│   ├── layout/                               # Navigation, smooth scroll & brand footer
+│   │   └── syndicate-seven-3d-carousel.tsx   # Interactive 7-Boss archetype selector & showcase
+│   ├── layout/
+│   │   ├── providers.tsx                     # Client providers wrapper
 │   │   ├── smooth-scroll-provider.tsx        # Lenis + GSAP ScrollTrigger smooth scroll engine
-│   │   ├── syndicate-nav.tsx                 # Atelier header with briefcase badge
-│   │   └── syndicate-footer.tsx              # Video background footer with copyright & links
-│   └── ui/                                   # Reusable 90s comic styled UI components
-│       ├── animated-cigar.tsx                # Animated burning cigar with volumetric smoke
-│       ├── kinetic-scroll.tsx                # Kinetic skew, word reveals & magnetic buttons
-│       └── smoke-canvas.tsx                  # Interactive HTML5 canvas speakeasy smoke engine
+│   │   ├── syndicate-footer.tsx              # Cinematic video-background footer (hero.mp4)
+│   │   └── syndicate-nav.tsx                 # Atelier top navigation & live briefcase counter
+│   └── ui/
+│       ├── animated-cigar.tsx                # High-detail burning cigar with animated ash & ember glow
+│       ├── kinetic-scroll.tsx                # Kinetic scroll skew, 3D tilt cards & word-by-word reveals
+│       └── smoke-canvas.tsx                  # HTML5 Canvas volumetric speakeasy smoke particles
 ├── lib/
-│   ├── audio-analyser.ts                     # Web Audio API frequency processor for live lip-sync
-│   ├── briefcase-store.ts                    # Zustand store for cart items, discounts & totals
-│   ├── characters-data.ts                    # Lore & profiles for the Syndicate bosses
-│   ├── gemini.ts                             # Multi-provider AI orchestrator & local fallback
-│   ├── knowledge-base.ts                     # Toni Lee tailoring wisdom, fabric guides & FAQs
-│   ├── suits-data.ts                         # Canonical specifications for The Syndicate Seven
-│   ├── toni-store.ts                         # Zustand store for Toni's voice, state & spotlights
-│   ├── toni-tools.ts                         # Master registry & executor for all 13 AI actions
-│   └── utils.ts                              # Tailwind class merge & formatting helpers
+│   ├── audio-analyser.ts                     # Web Audio API FFT frequency analyzer for lip-sync
+│   ├── briefcase-store.ts                    # Zustand persistent cart & discount calculation store
+│   ├── characters-data.ts                    # Canonical lore & traits for the 7 Syndicate archetypes
+│   ├── gemini.ts                             # Client SSE stream reader & zero-latency local fallback
+│   ├── knowledge-base.ts                     # Complete Mulberry St. knowledge base & system prompt builder
+│   ├── suits-data.ts                         # Canonical specs, fabrics, lapels & INR pricing for all 7 suits
+│   ├── toni-store.ts                         # Zustand store for Toni Lee avatar state, mic & messages
+│   ├── toni-tools.ts                         # Client DOM executor for all 13 autonomous tools
+│   └── utils.ts                              # Classname merge helper
 ├── public/
-│   ├── images/
-│   │   ├── characters/                       # Syndicate boss portraits
-│   │   ├── suits/                            # Suit photography and torn-frame overlays
-│   │   ├── syndicate-code/                   # Tailoring icons & kraft paper textures
-│   │   ├── hero-skyline.jpg                  # Little Italy 1928 noir backdrop
-│   │   ├── shop-banner-comic-noir.jpg        # 90s cartoon noir shop header artwork
-│   │   ├── smoking-cigar.jpg                 # High-detail burning cigar artwork
-│   │   ├── syndicate-brand-story.jpg         # Atelier workshop banner
-│   │   ├── syndicate-seven-lineup.jpg        # The Seven Bosses lineup
-│   │   └── toni-lee.jpg                      # Portrait of Toni Lee
-│   ├── suits-video/                          # 40-frame sequential canvas animation frames
-│   ├── videos/                               # Toni Lee idle & talking video loops
-│   ├── hero.mp4                              # Full-bleed cinematic footer background video
-│   └── hashtag.png                           # Atelier watermark graphic
-├── AGENTS.md                                 # Sole authoritative architecture & design standard
-├── package.json                              # Project manifest & npm scripts
-├── tsconfig.json                             # TypeScript configuration
-└── next.config.ts                            # Next.js configuration
+│   ├── images/                               # Character portraits, suit cuts, torn-frames & noir artwork
+│   ├── suits-video/                          # 40 sequential PNG frames (ezgif-frame-001.png - 040.png)
+│   ├── videos/                               # Toni Lee idle (toni-lee-idle.png) & talking (toni-lee-talking.mp4)
+│   ├── hashtag.png                           # Vintage fedora & emblem watermark
+│   └── hero.mp4                              # Full-bleed atmospheric noir video
+├── AGENTS.md                                 # Master architecture & 1990s Cartoon Noir specification
+└── .env.example                              # OpenRouter Nemotron environment template
 ```
 
 ---
 
-## 🚀 Quick Start & Local Setup
+## 🚀 Quick Start & Vercel Deployment
 
-### Prerequisites
-- **Node.js**: v22.13.0 or higher
-- **Package Manager**: `npm` or `pnpm` (pnpm 11+ recommended)
+### 1. Clone & Install
 
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/syndicate-suits.git
-cd syndicate-suits
-```
-
-### 2. Install Dependencies
-```bash
-npm install
-# or
+git clone https://github.com/Bala0o8o0/Syndicate-Suits.git
+cd Syndicate-Suits
 pnpm install
 ```
 
-### 3. Configure Environment Variables (Optional)
-The project works completely out of the box with built-in neural TTS and local fallback! To connect cloud AI models (Gemini 2.0 Flash or OpenRouter):
+### 2. Configure Environment Variables (`.env.local`)
+
+Copy `.env.example` to `.env.local`:
 
 ```bash
 cp .env.example .env.local
 ```
 
-Edit `.env.local` with your API keys:
+Add your free [OpenRouter API Key](https://openrouter.ai/keys):
+
 ```env
 # OpenRouter API Key (https://openrouter.ai/keys)
-OPENROUTER_API_KEY=your_openrouter_key_here
-OPENROUTER_MODEL=openai/gpt-4o-mini
-NEXT_PUBLIC_OPENROUTER_API_KEY=your_openrouter_key_here
-
-# Google Gemini API Key (https://aistudio.google.com/apikey)
-GEMINI_API_KEY=your_gemini_key_here
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+OPENROUTER_MODEL=nvidia/nemotron-3-ultra-550b-a55b:free
 ```
 
-### 4. Run the Development Server
+> 💡 **Zero-Key Offline Mode**: Even if `OPENROUTER_API_KEY` is left blank, Toni Lee's built-in 27-rule local natural language synthesizer + Microsoft Edge Neural TTS works out of the box with zero configuration!
+
+### 3. Run Locally
+
 ```bash
-npm run dev
-# or
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open **[http://localhost:3000](http://localhost:3000)** and click the **Toni Lee Consigliere** dock in the bottom-right corner.
 
-### 5. Production Build
-```bash
-npm run build
-npm run start
-```
+### 4. Deploy Free on Vercel (Recommended)
 
----
-
-## 🔑 Underworld Family Tribute Codes
-
-Test the discreet briefcase ledger discount engine with these secret family passcodes:
-
-| Secret Passcode | Discount | Description |
-| :--- | :--- | :--- |
-| `TONI_SPECIAL` | **25% OFF** | Toni Lee's personal favor for loyal patrons. |
-| `DON_CORLEONE` | **35% OFF** | High-level syndicate respect code with celebratory confetti. |
-| `FIVE_FAMILIES` | **30% OFF** | Council of the Five Families sit-down concession. |
-| `GOODFELLA` | **20% OFF** | Street-level associate courtesy discount. |
+1. Import **`Bala0o8o0/Syndicate-Suits`** at **[vercel.com/new](https://vercel.com/new)**.
+2. Add the two environment variables under **Project Settings → Environment Variables**:
+   - `OPENROUTER_API_KEY` = `your_openrouter_api_key_here`
+   - `OPENROUTER_MODEL` = `nvidia/nemotron-3-ultra-550b-a55b:free`
+3. Click **Deploy** — Vercel's Node.js serverless runtime natively runs Next.js 16, `msedge-tts` WebSockets, and OpenRouter SSE streaming.
 
 ---
 
-## 🎨 Design System & 90s Cartoon Noir Aesthetic
+<div align="center">
 
-Syndicate Suits follows a strict design aesthetic rooted in 1990s animated mobster comic art:
+### 🎩 **SYNDICATE SUITS ATELIER • 444 MULBERRY ST, LITTLE ITALY • EST. 1928**
+*"In this town, respect is earned—and we stitch it into every lapel. Capisce?"*
 
-- **Borders & Line Art**: 3px solid ink outlines (`border-3 border-black`) providing punchy graphic novel silhouettes.
-- **Shadows**: Hard, cel-shaded offset shadows (`shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]`) with zero fuzzy blur.
-- **Color Palette**:
-  - **Mafia Crimson**: `#8B0000` / `#DC2626`
-  - **Speakeasy Gold**: `#D4AF37` / `#F59E0B`
-  - **Charcoal Black**: `#0B0B0A` / `#121214`
-  - **Parchment Ivory**: `#E9DFC9` / `#EDE6D6`
-  - **Midnight Navy**: `#0F172A`
-- **Halftone & Texture**: Subtly integrated retro halftone screens and kraft-paper tactile overlays.
-- **Typography**: Editorial display fonts (*Oswald*, *Cinzel*, *Cormorant Garamond*) paired with crisp body typography (*Inter*, *JetBrains Mono*).
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Bala0o8o0%2FSyndicate--Suits-181717?style=for-the-badge&logo=github)](https://github.com/Bala0o8o0/Syndicate-Suits)
 
----
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <b>SYNDICATE SUITS ATELIER</b> • 444 MULBERRY ST, LITTLE ITALY • EST. 1928<br>
-  <i>"Look the part, boss."</i>
-</p>
+</div>
